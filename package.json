@@ -1,0 +1,25 @@
+{
+  "name": "lbrea_ecommerce",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --inspect ./src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.7",
+    "mongoose": "^6.9.0",
+    "mongoose-delete": "^0.5.4",
+    "socket.io": "^4.5.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.32.0"
+  }
+}
